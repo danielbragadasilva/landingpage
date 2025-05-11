@@ -9,7 +9,10 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Hineni Studio",
   description:
-    "Eternizando momentos sagrados com excelência técnica e sensibilidade espiritual. Filmagem, fotografia e produção de áudio para casamentos evangélicos."
+    "Eternizando momentos sagrados com excelência técnica e sensibilidade espiritual. Filmagem, fotografia e produção de áudio para casamentos evangélicos.",
+    icons: {
+      icon: "/favicon.ico",
+    }
 }
 
 export default function RootLayout({
