@@ -1,6 +1,7 @@
 
 import Image from "next/image";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 
 export default function CtaSection() {
@@ -27,7 +28,7 @@ export default function CtaSection() {
             capturar cada momento com a qualidade e o respeito que ele merece.
           </p>
           <Button className="bg-red-600 hover:bg-red-700 text-white px-8 py-6 rounded-md text-lg shadow-lg shadow-red-500/20 transition-all hover:shadow-red-500/40">
-            Agende uma consulta gratuita
+            <Link href="https://wa.me/5527995170968" target="__blank">Agende uma consulta gratuita</Link>
           </Button>
         </div>
       </div>

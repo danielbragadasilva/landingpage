@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { ChevronRight, Circle } from "lucide-react";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -32,7 +33,7 @@ export default function HeroSection() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
           <Button className="bg-red-600 hover:bg-red-700 text-white px-8 py-6 rounded-md text-lg shadow-lg shadow-red-500/20 transition-all hover:shadow-red-500/40">
-            Solicitar orçamento
+            <Link href="#contato">Solicite orçamento</Link>
             <ChevronRight className="ml-2 h-5 w-5" />
           </Button>
           {/* <Button

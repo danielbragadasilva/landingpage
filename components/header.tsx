@@ -40,7 +40,7 @@ export default function Header() {
             variant="outline"
             className="hidden md:flex border-red-500 text-red-500 hover:bg-red-500/10 hover:text-white"
           >
-            Orçamento
+            <Link href="#contato">Orçamento</Link>
           </Button>
           <Button variant="ghost" size="icon" className="md:hidden">
             <svg
