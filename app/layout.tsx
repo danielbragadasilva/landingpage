@@ -1,5 +1,5 @@
-import type React from "react"
 import type { Metadata } from "next"
+import type React from "react"
 import { Inter } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
@@ -10,10 +10,7 @@ export const metadata: Metadata = {
   title: "Hineni Studio",
   description:
     "Eternizando momentos sagrados com excelência técnica e sensibilidade espiritual. Filmagem, fotografia e produção de áudio para casamentos evangélicos.",
-    icons: {
-      icon: "/favicon.ico",
-    }
-}
+};
 
 export default function RootLayout({
   children,
